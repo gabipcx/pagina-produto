@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de produtos simples</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <!-- seção do produto -->
+        <section class="produto">
+            <!-- div onde vai ficar as imagens dos produtos -->
+        <div class="imagens-produtos">
+            <!-- imagem principal do produto -->
+        <img src="./img/blusademanga3.jpg" alt="produto principal" class="imagem-principal" id="imagem-principal">
+        <!-- miniatura das imagens -->
+        <div class="miniatura">
+            <img src="./img/blusa4.jpg" alt="miniatura 1" class="miniatura" data-imagem="./img/blusa4.jpg">
+            <img src="./img/blusademanga.jpg" alt="miniatura 2" class="miniatura" data-imagem="./img/blusademanga.jpg">
+            <img src="./img/blusademanga2.jpg" alt="miniatura 3" class="miniatura" data-imagem="./img/blusademanga2.jpg">
+        </div>
+</div>
+<!-- div tem os detalhes dos produtos -->
+<div class="detalhes-produto">
+    <!-- nome do produto -->
+    <h2>Printed long-sleeve T-shirt</h2>
+    <!-- descrição do produto -->
+    <p class="descricao">multicolour all-over graphic print round neck long sleeves POSITIVELY CONSCIOUS: This Planet Conscious product 
+        is crafted from certified recycled or upcycled materials, which helps you make a better choice for the environment as they generate less energy, save water and reduce the need for new raw materials. For recycled synthetic clothing products we highly recommend using a microfibre-catching washing bag to ensure that no microplastics that can pollute water are released in the process</p>
+    <!-- preço -->
+    <p class="preco">R$ 929,54</p>
+    <!-- formulario para cor e tamanho pods produtos -->
+    <form class="opcoes-compra">
+        <!-- seleção do tamanho -->
+        <label for="tamanhos">tamanhos:</label>
+        <select id="tamanhos">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>GG</option>
+            <option>XGG</option>
+        </select>
+        <!-- seleção de cor -->
+        <label for="cor">Variedades:</label>
+        <select id="cor">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+        <!-- botão de compra -->
+        <button type="submit">Comprar</button>
+    </form>
+</div>
+</section>
+<!-- comentario dos clientes -->
+<section class="comentarios">
+    <h3>Comentários dos nossas clientes</h3> 
+    <!-- Título da seção dos comentarios -->
+    <!-- ccomentaro 1 -->
+    <div class="comentario">
+        <!-- foto do cliente 1 -->
+        <img src="./img/roberto-carlos.jpg" alt="foto de lee Mina" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>Roberto Carlos:</strong> Omg, its so creamy, i love this closes!!</p>
+    </div>
+     <!-- ccomentaro 2 -->
+     <div class="comentario">
+        <!-- foto do cliente 2 -->
+        <img src="./img/juliano-floss-1696347613.jpg" alt="foto de Aiko" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>Julia Floss:</strong>i loved, 5 stars for this site.</p>
+    </div>
+</section>
+</main>
+    <script src="../script.js"></script>
+</body>
+</html>
